@@ -27,5 +27,13 @@ void loop(){
       delay(500);
       analogWrite(5, 0);
     }
+
+    if (readString == '2') {
+      analogWrite(4, 255);
+      analogWrite(5, 255);
+      delay(500);
+      analogWrite(4, 0);
+      analogWrite(5, 0);
+    }
   }
 }
